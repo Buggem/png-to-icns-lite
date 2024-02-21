@@ -3,7 +3,7 @@
 <img width="613" alt="cover_png_to_icns" src="https://user-images.githubusercontent.com/17025808/154702281-8115f8ec-b092-4ba6-9831-e8973b774546.png">
 </p>
 
-<p font-family="serif">A _lite_ shell script to transform your PNGs into ICNS'</p>
+<p font-family="serif">A <i>lite</i> shell script to transform your PNGs into ICNS'</p>
 
 ## Image Requirements
 - Format should be PNG (transparency isn't mandatory).

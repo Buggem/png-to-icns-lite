@@ -12,7 +12,7 @@ usageFunction()
 }
 
 # If no option were passed display usage and exit
-if [[ $1 == "" ] || [ $1 == "-h" ]]
+if [[ $1 == "" || $1 == "-h" ]]
 then
     usageFunction
 fi
@@ -43,7 +43,7 @@ sips -z 512 512   "$1" --out "${output_iconset_name}/icon_256x256@2x.png" > /dev
 sips -z 512 512   "$1" --out "${output_iconset_name}/icon_512x512.png" > /dev/null
 
 
-cp "$image_path" $output_iconset_name/icon_512x512@2x.png
+cp "$1" $output_iconset_name/icon_512x512@2x.png
 iconutil -c icns $output_iconset_name
 
 # Delete the temp folder

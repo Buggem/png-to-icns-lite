@@ -23,7 +23,7 @@ Or copy/paste the script file `png_to_icns.sh` in a directory
 3. Start the script and give the path to the image as argument:  
 `-i` stand for `image_path`
 ```shell
-> ./png_to_icns.sh <path_to_my_image.png>
+> ./png_to_icns.sh <path_to_my_image.png> <name_of_new_icon>
 >
 ```
 4. Done! The new icon has been created, the path of this `.icns` is indicate on the info message in your terminal.

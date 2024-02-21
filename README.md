@@ -3,7 +3,7 @@
 <img width="613" alt="cover_png_to_icns" src="https://user-images.githubusercontent.com/17025808/154702281-8115f8ec-b092-4ba6-9831-e8973b774546.png">
 </p>
 
-A Bash / Shell script to convert your PNG images into Mac OS specific type ICNS (iconset) !
+<p font-family="serif">A _lite_ shell script to transform your PNGs into ICNS'</p>
 
 ## Image Requirements
 - Format should be PNG (transparency isn't mandatory).
@@ -39,5 +39,10 @@ You cannot see or understand the error, open a issue [on the original](https://g
 
 ## Author & maintainer
 PNG to ICNS was and is currently maintained by [Ben Souchet](https://github.com/BenSouchet).
+
+
 PNG to ICNS **_LITE_** is maintained by [Buggem](https://buggem.github.io).
-The code present in this repository is under [MIT license](https://github.com/BenSouchet/png-to-icns/blob/main/LICENSE).
+
+The base code presented in this repository is under the [MIT license](https://github.com/BenSouchet/png-to-icns/blob/main/LICENSE).
+
+This modifications this fork has made to the original piece of software is unlicensed free code, meaning that the modifications made can be distributed and accessed freely.
